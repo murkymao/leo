@@ -25,14 +25,14 @@ body {
 
 @font-face {
     font-family: "Mrs Eaves OT";
-    src: url("../font/Mrs_Eaves_OT_Italic.otf");
+    src: url("font/Mrs_Eaves_OT_Italic.otf");
 }
 
 .container {
     width: 1280px;
     margin: 50px auto;
     background-color: #fff;
-    background: url("../img/header_background_gradient.png") no-repeat;
+    background: url("img/header_background_gradient.png") no-repeat;
     background-size: 100%;
 }
 
@@ -226,7 +226,7 @@ p {
 
 .bottom ul li {
     padding: 10px;
-    list-style-image: url("../img/Shape15.png");
+    list-style-image: url("img/Shape15.png");
 }
 
 .bottom ul li a {

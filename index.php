@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Leo Landing</title>
-    <link href="style.css" rel="stylesheet">
+    <link href="<?php bloginfo('stylesheet_url')?>" rel="stylesheet">
 </head>
 <body>
 <div class="container">
     <header class="clearfix">
-        <img src="assets/img/Arrow%20left%20in%20a%20circle.png" alt="left-arrow" class="left-arrow">
+        <img src="img/Arrow%20left%20in%20a%20circle.png" alt="left-arrow" class="left-arrow">
         <section class="column column-2">
             <span class="header-title">Leo/-</span>
         </section>
@@ -25,23 +25,23 @@
         </section>
         <div class="clearfix"></div>
         <section class="header-title column column-2">
-            <img src="assets/img/icon.png" alt="logo" class="header-logo">
+            <img src="img/icon.png" alt="logo" class="header-logo">
         </section>
         <section class="header-info">
             <h1>Introducing</h1>
             <h2>Something hot......</h2>
             <button type="submit" class="button">Try Demo</button>
         </section>
-        <a href="#"><img src="assets/img/Arrow%20right%20in%20a%20circle.png" alt="right-arrow" class="right-arrow"></a>
+        <a href="#"><img src="img/Arrow%20right%20in%20a%20circle.png" alt="right-arrow" class="right-arrow"></a>
     </header>
     <div class="clearfix"></div>
     <div class="content">
-        <div class="column column-3 border"><a href="#"><img src="assets/img/phone.png" alt=""></a></div>
-        <div class="column column-3 border"><a href="#"><img src="assets/img/basket.png" alt=""></a></div>
-        <div class="column column-3 border"><a href="#"><img src="assets/img/earth.png" alt=""></a></div>
-        <div class="column column-3 border"><a href="#"><img src="assets/img/search.png" alt=""></a></div>
+        <div class="column column-3 border"><a href="#"><img src="img/phone.png" alt=""></a></div>
+        <div class="column column-3 border"><a href="#"><img src="img/basket.png" alt=""></a></div>
+        <div class="column column-3 border"><a href="#"><img src="img/earth.png" alt=""></a></div>
+        <div class="column column-3 border"><a href="#"><img src="img/search.png" alt=""></a></div>
         <div class="clearfix"></div>
-        <div class="ipad"><img src="assets/img/ipad.png" alt="ipad">
+        <div class="ipad"><img src="img/ipad.png" alt="ipad">
             <h3>Lorem Ipsum is simply dummy text</h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
@@ -64,7 +64,7 @@
                 publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </div>
         <div class="border"></div>
-        <div class="column column-2 bottom"><img src="assets/img/screen_shot.png" alt=""></div>
+        <div class="column column-2 bottom"><img src="img/screen_shot.png" alt=""></div>
         <div class="column column-2 bottom">
             <h4>Why choose us ?</h4>
             <ul>
