@@ -1,3 +1,5 @@
+<?php get_header(); ?>
+
 <footer>
     <div class="column column-3">
         <h5>About Us</h5>
@@ -39,6 +41,6 @@
     <div class="copy"><span>&copy;murkymao</span></div>
 </footer>
 
-
+<?php wp_footer(); ?>
 </body>
 </html>
