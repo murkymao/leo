@@ -1,0 +1,318 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #282828;
+}
+
+@font-face {
+    font-family: "Mrs Eaves OT";
+    src: url("../font/Mrs_Eaves_OT_Italic.otf");
+}
+
+.container {
+    width: 1280px;
+    margin: 50px auto;
+    background-color: #fff;
+    background: url("../img/header_background_gradient.png") no-repeat;
+    background-size: 100%;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 270px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 270px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+header {
+    position: relative;
+    height: 490px;
+    padding: 60px 125px;
+}
+
+button {
+    border: none;
+    border-radius: 3px;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 23px;
+    color: #FFFFFF;
+}
+
+button:hover {
+    opacity: 1.0;
+}
+
+header button {
+    margin-top: 40px;
+    background-color: #2a704f;
+    padding: 10px 20px;
+    opacity: 0.8;
+}
+
+header button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h1, h2 {
+    color: #8d9491;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h3 {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 38px;
+}
+
+h4 {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 32px;
+    color: #4f4f4f;
+}
+
+h5 {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 22px;
+    color: #fff;
+}
+
+p {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 14px;
+}
+
+.content {
+    background-color: #FFFFFF;
+    height: 1625px;
+    padding-top: 95px;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+.header-title {
+    font-family: "Mrs Eaves OT", sans-serif;
+    font-style: italic;
+    font-size: 118px;
+    color: #b7babb;
+    padding-left: 90px;
+}
+
+.header-info {
+    padding-top: 105px;
+}
+
+.header-navigation-block ul li {
+    float: left;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 22px;
+    padding-right: 50px;
+    list-style-type: none;
+}
+
+.header-navigation-block ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header-navigation-block ul li a:hover {
+    color: #e67624;
+    text-decoration: none;
+}
+
+.header-navigation-block ul li:last-child {
+    padding-right: 0;
+}
+
+.column {
+    float: left;
+}
+
+.column-2 {
+    width: 50%;
+}
+
+.column-3 {
+    width: 25%;
+}
+
+.clearfix:after {
+    display: block;
+    content: ' ';
+    font-size: 0;
+    clear: both;
+}
+
+.header-logo {
+    position: relative;
+    top: 70px;
+    left: 10px;
+    width: 330px;
+    height: 330px;
+}
+
+.border {
+    border-bottom: 3px solid #b7babb;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.border:hover {
+    border-top: 3px solid #b7babb;
+    border-left: 3px solid #b7babb;
+    border-right: 3px solid #b7babb;
+    border-bottom: none;
+}
+
+.border:nth-child(2) {
+    border-top: 3px solid #b7babb;
+    border-left: 3px solid #b7babb;
+    border-right: 3px solid #b7babb;
+    border-bottom: none;
+}
+
+.ipad {
+    text-align: center;
+    margin: 60px;
+    padding: 0 20px;
+    color: #4f4f4f;
+}
+
+.bottom {
+    padding-top: 20px;
+    padding-bottom: 60px;
+
+}
+
+.bottom img {
+    width: 450px;
+    height: 310px;
+}
+
+.bottom ul li {
+    padding: 10px;
+    list-style-image: url("../img/Shape15.png");
+}
+
+.bottom ul li a {
+    text-decoration: none;
+    color: #4f4f4f;
+}
+
+.login {
+    margin: 20px 0 0 0;
+    width: 470px;
+    height: 110px;
+    background-color: #e67624;
+    font-family: "Myriad Pro", sans-serif;
+    border-radius: 5px;
+}
+
+.login p {
+    color: #FFFFFF;
+    font-size: 28px;
+    margin: 10px 0 0 10px;
+}
+
+.login button {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 16px;
+    background-color: #444444;
+    margin-left: 10px;
+    padding: 10px 20px;
+}
+
+.login button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.login input {
+    width: 155px;
+    margin: 30px 0 0 10px;
+    padding: 5px 0;
+}
+
+.email {
+    margin: 20px 0 0 65px;
+    width: 470px;
+    height: 110px;
+    background-color: #01d4f3;
+    font-family: "Myriad Pro", sans-serif;
+    border-radius: 5px;
+}
+
+.email p {
+    color: #FFFFFF;
+    font-size: 28px;
+    margin: 10px 0 0 10px;
+    text-align: center;
+}
+
+.email button {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 16px;
+    background-color: #029bb1;
+    margin-left: 50px;
+    padding: 10px 20px;
+}
+
+.email button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.email input {
+    width: 256px;
+    margin: 30px 0 0 25px;
+    padding: 5px 0;
+}
+
+footer {
+    height: 700px;
+    margin: 0 125px;
+    padding: 0 40px;
+}
+
+footer ul li {
+    padding: 5px;
+    list-style-type: none;
+    font-family: "Arial", sans-serif;
+    font-size: 13px;
+
+}
+
+footer ul li a, p {
+    text-decoration: none;
+    color: #b7babb;
+}
+
+footer span {
+    color: #FFFFFF;
+}
+
+.copy {
+    margin-top: 0;
+    margin-right: 100px;
+    text-align: right;
+}
