@@ -18,7 +18,7 @@
     <!--post-->
             <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a><span class="date"><?php the_date('d.m.y');?></span></h3>
             <p><?php the_content ();?></p>
-            <div class="tags"><?php the_tags ('<span>Теги:</span> '); ?></div>
+            <div class="tags"><?php the_tags ('<span>Tags:</span> '); ?></div>
         <?php endwhile; ?>
     <!--post navigation-->
         <?php else: ?>
