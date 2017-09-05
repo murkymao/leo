@@ -12,34 +12,19 @@
     </div>
     <div class="clearfix"></div>
     <div class="ipad"><img src="<?php bloginfo('template_url') ?>/img/ipad.png" alt="ipad">
-     <h3>Lorem Ipsum is simply dummy text</h3>
+<!--     <h3>Lorem Ipsum is simply dummy text</h3>-->
 
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
     <!--post-->
+            <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a><span class="date"><?php the_date('d.m.y');?></span></h3>
+            <p><?php the_content ();?></p>
+            <div class="tags"><?php the_tags ('<span>Теги:</span> '); ?></div>
         <?php endwhile; ?>
     <!--post navigation-->
         <?php else: ?>
     <!--no posts found-->
         <?php endif; ?>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
-        and
-        scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-        leap
-        into electronic typesetting, remaining essentially unchanged. <br> <br>
 
-        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-        and
-        more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
-        Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-        been
-        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-        type
-        and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-        leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-        with
-        the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-        publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 </div>
 <div class="border"></div>
 <div class="column column-2 bottom"><img src="<?php bloginfo('template_url') ?>/img/screen_shot.png" alt=""></div>

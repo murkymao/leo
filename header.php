@@ -8,7 +8,7 @@
     <?php wp_head(); ?>
 </head>
 <body>
-<?php echo home_url('')?>
+<?php //echo home_url('')?>
 <div class="container">
     <header class="clearfix">
         <img src="<?php bloginfo('template_url')?>/img/Arrow%20left%20in%20a%20circle.png" alt="left-arrow" class="left-arrow">
